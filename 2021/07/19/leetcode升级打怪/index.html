@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
   <head>
   <meta charset="UTF-8">
   <meta 
@@ -14,7 +14,7 @@
     id="theme-color">
   <meta 
     name="description" 
-    content="Hexo">
+    content=" ">
   <link 
     rel="icon" 
     href="/img/header.jpeg">
@@ -36,6 +36,10 @@
         content="/img/header.jpeg">
     
     
+      <meta 
+        property="og:img" 
+        content="leetcode升级打怪">
+    
     
       <meta 
         property="og:type" 
@@ -50,6 +54,10 @@
         property="og:article:author" 
         content="看山">
       
+        
+          <meta 
+            property="og:article:tag" 
+            content="JavaScript">
         
       
     
@@ -172,7 +180,7 @@
           src="/img/header.jpeg" 
           alt="blog logo">
       
-      <span class="navbar-logo-dsc"> </span>
+      <span class="navbar-logo-dsc">看山</span>
     </span>
   </div>
   <div class="navbar-menu">
@@ -181,7 +189,7 @@
         href="/" 
         class="navbar-menu-item">
         
-          Home
+          首页
         
       </a>
     
@@ -189,7 +197,7 @@
         href="/archives" 
         class="navbar-menu-item">
         
-          Archive
+          归档
         
       </a>
     
@@ -197,7 +205,7 @@
         href="/tags" 
         class="navbar-menu-item">
         
-          Tags
+          标签
         
       </a>
     
@@ -205,7 +213,7 @@
         href="/categories" 
         class="navbar-menu-item">
         
-          Categories
+          分类
         
       </a>
     
@@ -213,7 +221,7 @@
         href="/about" 
         class="navbar-menu-item">
         
-          About
+          关于
         
       </a>
     
@@ -221,7 +229,7 @@
         href="/links" 
         class="navbar-menu-item">
         
-          Friends
+          友链
         
       </a>
     
@@ -262,7 +270,7 @@
     </h1>
   </header>
   <div class="post-meta post-show-meta">
-    <time datetime="2021-07-19T11:34:39.000Z">
+    <time datetime="2021-07-19T11:34:39.967Z">
       <i 
         class="iconfont icon-calendar" 
         style="margin-right: 2px;">
@@ -270,11 +278,39 @@
       <span>2021-07-19</span>
     </time>
     
+      <span class="dot"></span>
+      
+        <a 
+          href="/categories/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/" 
+          class="post-meta-link">
+          前端技术
+        </a>
+      
+    
     
       <span class="dot"></span>
-      <span>0 words</span>
+      <span>0 字</span>
     
   </div>
+  
+    <div 
+      class="post-meta post-show-meta" 
+      style="margin-top: -10px;">
+      <div style="display: flex; align-items: center;">
+        <i 
+          class="iconfont icon-biaoqian" 
+          style="margin-right: 2px; font-size: 1.15rem;">
+        </i>
+        
+          
+          <a 
+            href="/tags/JavaScript/" 
+            class="post-meta-link">
+            JavaScript
+          </a>
+        
+      </div>
+    </div>
   
   </header>
   <div 
@@ -316,7 +352,7 @@
         href="/2021/07/19/hello-world/" 
         class="nav-link">
         <div>
-          <div class="nav-label">Next</div>
+          <div class="nav-label">下一篇</div>
           
             <div class="nav-title">Hello World </div>
           
@@ -334,7 +370,7 @@
   <i 
     class="iconfont icon-menu" 
     style="padding-right: 2px;">
-  </i>TOC
+  </i>目录
 </div>
 
 </div></main>
@@ -354,19 +390,19 @@
     class="author-posts-count" 
     href="/archives">
     <span>2</span>
-    <span>Posts</span>
+    <span>文章</span>
   </a>
   <a 
     class="author-categories-count" 
     href="/categories">
-    <span>0</span>
-    <span>Categories</span>
+    <span>1</span>
+    <span>分类</span>
   </a>
   <a 
     class="author-tags-count" 
     href="/tags">
-    <span>0</span>
-    <span>Tags</span>
+    <span>1</span>
+    <span>标签</span>
   </a>
 </div>
 
@@ -380,7 +416,7 @@
   <i 
     class="iconfont icon-menu" 
     style="padding-right: 2px;">
-  </i>TOC
+  </i>目录
 </div>
 
       </div>
@@ -393,9 +429,16 @@
     <i 
       class="iconfont icon-fenlei" 
       style="padding-right: 2px;">
-    </i>Categories
+    </i>分类
   </div>
   <div class="categories-list">
+    
+      <a href="/categories/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/">
+        <div class="categories-list-item">
+          前端技术
+          <span class="categories-list-item-badge">1</span>
+        </div>
+      </a>
     
   </div>
 </div>
@@ -407,9 +450,15 @@
     <i 
       class="iconfont icon-biaoqian" 
       style="padding-right: 2px;">
-    </i>hot tags
+    </i>热门标签
   </div>
   <div class="tags-list">
+    
+      <a 
+        href="/tags/JavaScript/" 
+        title="JavaScript">
+        <div class="tags-list-item">JavaScript</div>
+      </a>
     
   </div>
 </div>
@@ -427,7 +476,7 @@
   <i 
     class="iconfont icon-menu" 
     style="padding-right: 2px;">
-  </i>TOC
+  </i>目录
 </div>
 
     </article>
@@ -439,7 +488,7 @@
     <i 
       class="iconfont icon-wenzhang_huaban" 
       style="padding-right: 2px;">
-    </i>Recent Posts
+    </i>最近文章
   </div>
   <div class="recent-posts-list">
     
@@ -480,7 +529,7 @@
         <a 
           href="/" 
           class="footer-link">
-           
+          看山
         </a>
       </div>
     </div>
